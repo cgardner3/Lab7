@@ -1,11 +1,11 @@
 function init(){
-	
-	var press = document.getElementById("entrybutton");
-	press.addEventListener('click',function(){
-		var userInput = document.getElementById("entryinput").value;
-		alert("Cheryl Gardner: " + userInput);
+	var button = document.getElementById('entrybutton');
+	button.addEventListener('click',fuction (event){
+		var message = document.getElementById('entryinput').value;
+		alert("Cheryl Gardner: " + message);
+		document.getElementById('textoutput').innerHTML = message;
 		console.log(message);
-		document.getElementById("textoutput").innerHTML = userInput;
-	});
+	})
 }
+var window = document.getElementById('entrybutton');
 window.addEventListener('load', init);
