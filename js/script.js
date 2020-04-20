@@ -1,9 +1,9 @@
 function init(){
 	var button = document.getElementById('entrybutton');
-	button.addEventListener('click',fuction (event){
-		var message = document.getElementById('entryinput').value;
+	var message = document.getElementById('entryinput').value;
+	button.addEventListener('click',fuction() {
 		alert("Cheryl Gardner: " + message);
-		document.getElementById('textoutput').innerHTML = message;
+		document.getElementById('textoutput').innerHTML = message.value;
 		console.log(message);
 	});
 }
