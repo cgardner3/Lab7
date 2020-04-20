@@ -5,7 +5,7 @@ function init(){
 		alert("Cheryl Gardner: " + message);
 		document.getElementById('textoutput').innerHTML = message;
 		console.log(message);
-	})
+	});
 }
 var window = document.getElementById('entrybutton');
 window.addEventListener('load', init);
