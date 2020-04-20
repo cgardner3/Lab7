@@ -1,13 +1,11 @@
 function init(){
 	
-	var response=document.getElementById('entrybutton');
-	button.addEventListener('click',fuction (event){
-		var userInput=document.getElementId('entryinput').value;
+	var press = document.getElementById("entrybutton");
+	press.addEventListener('click',function(){
+		var userInput = document.getElementById("entryinput").value;
 		alert("Cheryl Gardner: " + userInput);
-		document.getElementById('textoutput').innerHTML = userInput;
-		console.log(message)
-	})
+		console.log(message);
+		document.getElementById("textoutput").innerHTML = userInput;
+	});
 }
-
-var window = document.getElementById('entrybutton')
 window.addEventListener('load', init);
